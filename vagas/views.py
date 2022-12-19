@@ -89,8 +89,8 @@ def envia_email(request, id_vaga):
     html_content = render_to_string('emails/template_email.html', {'corpo': corpo})
     text_content = strip_tags(html_content)
     email = EmailMultiAlternatives(assunto, text_content, settings.EMAIL_HOST_USER, [vaga.email,] )
-
     email.attach_alternative(html_content, 'text/html')
+
     if email.send(): 
         meil = Emails(
             vaga=vaga,

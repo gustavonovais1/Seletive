@@ -8,3 +8,4 @@ urlpatterns = [
     path('realizar_tarefa/<int:id>', views.realizar_tarefa, name='realizar_tarefa'),
     path('envia_email/<int:id_vaga>', views.envia_email, name="envia_email"),
 ]
+
