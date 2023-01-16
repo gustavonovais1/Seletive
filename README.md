@@ -1,7 +1,7 @@
 # Seletive
 
 <p align="center">
-  <a href="https://www.djangoproject.com" target="blank"><img src="https://code.djangoproject.com/raw-attachment/ticket/24953/django-hexbin.png" width="200" alt="Django Logo" /></a>
+  <a href="https://www.djangoproject.com" target="blank"><img src="https://code.djangoproject.com/raw-attachment/tick   et/24953/django-hexbin.png" width="200" alt="Django Logo" /></a>
 </p>
 
 <p align="center">
@@ -94,7 +94,11 @@ $ cd Seletive
   # Windows
     $ python -m venv venv
 
-#Ativar
+
+```
+3 - Ativar
+```bash
+
   # Linux
     $ source venv/bin/activate
   # Windows
@@ -104,9 +108,9 @@ $ cd Seletive
 
   $ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
-Com o ambiente virtual ativo:
-
-- Acesse a pasta do projeto no terminal execute:
+```
+3 - Configuração inicial
+```bash
 
 ### Para total funcionamento da aplicação ainda é necessário fazer as migrações para gerar o esquema de banco de dados:
 
@@ -120,9 +124,12 @@ python manage.py migrate
 $ python3 .\manage.py createsuperuser
 $ python .\manage.py createsuperuser
 
-## 👨‍💻 Ativando a aplicação (localmente)
+```
+### 👨‍💻 Ativando a aplicação (localmente)
+
 Para executar o servidor localmente (Com o ambiente virtual ativo):
 
+```bash
 # Linux
 $ python3 manage.py runserver
 # Windows
