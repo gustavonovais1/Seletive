@@ -35,29 +35,17 @@ Seletive é um sistema desenvolvido para a gerencia de candidaturas em vagas de 
 
 <p align="center">
   <img alt="Página inicial" src="media/readme/pagina_inicial.jpg" width="100%">
-</p>
 
-<p align="center">
   <img alt="Cadastro empresa" src="media/readme/cadastro_empresa.jpg" width="100%">
-</p>
 
-<p align="center">
   <img alt="Página empresa" src="media/readme/pagina_empresa.jpg" width="100%">
-</p>
 
-<p align="center">
   <img alt="Cadastro vaga" src="media/readme/cadastro_vaga.jpg" width="100%">
-</p>
 
-<p align="center">
   <img alt="Pagina vaga" src="media/readme/pagina_vaga.jpg" width="100%">
-</p>
 
-<p align="center">
   <img alt="Cadastro tarefa" src="media/readme/cadastro_tarefa.jpg" width="100%">
-</p>
 
-<p align="center">
   <img alt="Envio de email" src="media/readme/envio_email_vaga.jpg" width="100%">
 </p>
 
